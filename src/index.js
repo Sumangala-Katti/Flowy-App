@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import CanvasDiv from './Component/CanvasDiv';
 import NavBar from './Component/Navbar';
@@ -11,7 +10,6 @@ import ContentDiv from './Component/ContentDiv';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
     <CanvasDiv/>
     <NavBar/>
     <LeftSidebar/>
